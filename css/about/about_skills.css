@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+.skills_wrapper {
+  min-height: 100%;
+  background-color: #242527;
+  color: #fcf2e2;
+  padding: 20px;
+}
+
+.skills_header {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.skills_container_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills_container {
+  /*style the text*/
+  width: 250px;
+  margin: 30px auto;
+}
+
+.skills_container h1 {
+  /*change font family of heading*/
+  font-family: sans-serif;
+}
+
+.skills_container h3 {
+  all: unset;
+}
+
+.skills_container li {
+  /*style the li tag*/
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.skills_container li {
+  /*set margin of li*/
+  margin: 20px 0;
+}
+
+.bar {
+  /*style the bar*/
+  margin: 10px 0;
+  width: 200px;
+  background-color: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 0px rgba(245, 239, 229, 0.75);
+}
+
+.bar span {
+  /*style the span tag*/
+  height: 2px;
+  float: left;
+  background-color: #f5efe5;
+}
+
+/* Frontend skills */
+
+/* Html skill */
+
+.html {
+  /*set skills and animation of html*/
+  width: 92%;
+  animation: html 2s;
+}
+
+@keyframes html {
+  /*animate html skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 92%;
+  }
+}
+
+/* CSS skill */
+
+.css {
+  /*set skills and animation of css*/
+  width: 87%;
+  animation: css 2s;
+}
+
+@keyframes css {
+  /*animate css skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 87%;
+  }
+}
+/* tailwind skill */
+
+.tailwind {
+  /*set skills and animation of tailwind*/
+  width: 83%;
+  animation: tailwind 2s;
+}
+
+@keyframes tailwind {
+  /*animate tailwind skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 83%;
+  }
+}
+
+.bootstrap {
+  /*set skills and animation of bootstrap*/
+  width: 33%;
+  animation: bootstrap 2s;
+}
+
+@keyframes bootstrap {
+  /*animate bootstrap skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 33%;
+  }
+}
+
+.javascript {
+  /*set skills and animation of javascript*/
+  width: 85%;
+  animation: javascript 2s;
+}
+
+@keyframes javascript {
+  /*animate javascript skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+.react {
+  /*set skills and animation of react*/
+  width: 70%;
+  animation: react 2s;
+}
+
+@keyframes react {
+  /*animate react skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+.redux {
+  /*set skills and animation of redux*/
+  width: 30%;
+  animation: redux 2s;
+}
+
+@keyframes redux {
+  /*animate redux skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+.typescript {
+  /*set skills and animation of typescript*/
+  width: 30%;
+  animation: typescript 2s;
+}
+
+@keyframes typescript {
+  /*animate typescript skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+.nextjs {
+  /*set skills and animation of nextjs*/
+  width: 40%;
+  animation: nextjs 2s;
+}
+
+@keyframes nextjs {
+  /*animate nextjs skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+/* Backend skills */
+
+.nodejs {
+  /*set skills and animation of nodejs*/
+  width: 50%;
+  animation: nodejs 2s;
+}
+
+@keyframes nodejs {
+  /*animate nodejs skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+.npm {
+  /*set skills and animation of npm*/
+  width: 45%;
+  animation: npm 2s;
+}
+
+@keyframes npm {
+  /*animate npm skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 45%;
+  }
+}
+
+.mongodb {
+  /*set skills and animation of mongodb*/
+  width: 45%;
+  animation: mongodb 2s;
+}
+
+@keyframes mongodb {
+  /*animate mongodb skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 45%;
+  }
+}
+
+.mongoose {
+  /*set skills and animation of mongoose*/
+  width: 33%;
+  animation: mongoose 2s;
+}
+
+@keyframes mongoose {
+  /*animate mongoose skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 33%;
+  }
+}
+
+.express {
+  /*set skills and animation of express*/
+  width: 55%;
+  animation: express 2s;
+}
+
+@keyframes express {
+  /*animate express skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+/* Hosting skills  */
+
+.heroku {
+  /*set skills and animation of heroku*/
+  width: 20%;
+  animation: heroku 2s;
+}
+
+@keyframes heroku {
+  /*animate heroku skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 20%;
+  }
+}
+
+.vercel {
+  /*set skills and animation of vercel*/
+  width: 43%;
+  animation: vercel 2s;
+}
+
+@keyframes vercel {
+  /*animate vercel skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 43%;
+  }
+}
+
+.filezilla {
+  /*set skills and animation of filezilla*/
+  width: 28%;
+  animation: filezilla 2s;
+}
+
+@keyframes filezilla {
+  /*animate filezilla skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 28%;
+  }
+}
+
+/* Version control skills */
+
+.git {
+  /*set skills and animation of git*/
+  width: 28%;
+  animation: git 2s;
+}
+
+@keyframes git {
+  /*animate git skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 28%;
+  }
+}
+
+.github {
+  /*set skills and animation of github*/
+  width: 40%;
+  animation: github 2s;
+}
+
+@keyframes github {
+  /*animate github skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+/* Application skills */
+
+.figma {
+  /*set skills and animation of figma*/
+  width: 20%;
+  animation: figma 2s;
+}
+
+@keyframes figma {
+  /*animate figma skills*/
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills_container_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
